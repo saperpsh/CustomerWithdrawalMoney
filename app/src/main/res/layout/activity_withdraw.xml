@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10px"
+    tools:context=".WithdrawActivity">
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="left"
+            android:text="Balance"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/lblAmount"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:hint="0.0"
+            />
+
+
+        <EditText
+            android:id="@+id/tbAmount"
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:hint="Enter the amount"/>
+
+
+
+        <Button
+            android:id="@+id/btnWithdraw"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+           android:text="Withdraw" />
+
+
+
+</LinearLayout>
